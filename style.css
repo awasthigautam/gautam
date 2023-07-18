@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+  background-color: #033f47;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+a:hover {
+  color: yellow;
+}
+img {
+  width: 100%;
+}
+
+.text-brand {
+  color: yellow;
+}
+
+.bg-base {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/*navbar*/
+
+.full-height {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar {
+  background-color: #000000;
+}
+.navbar .nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+.navbar.nav-link:hover {
+  color: yellow;
+}
+
+
+ .navbar .nav-link.active {
+  color: yellow;
+} 
+
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    width: 248px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(..);
+    background-size: cover;
+    background-position: center;
+  }
+  .navbar-brand img {
+    border: 8px solid yellow;
+  }
+
+  #Content-wrapper {
+    padding-left: 248px;
+  }
+}
+
+.iconbox {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  background-color: yellow;
+  color: #033f47;
+}
+
+/*content*/
+.aboutP{
+    margin-top: 100px;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+.tech{
+    display: flex;
+}
+.logo{
+
+    width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  background-color: yellow;
+  color: #033f47;
+  margin: 5px;
+    
+}
+.contact-logo{
+    display: flex;
+}
